@@ -1,10 +1,243 @@
 @import "vars";
 @import "libs";
 @import "fonts";
-h1 {
-    font-family: $Montserrat;
-    font-weight: 900;
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__block {
+    background: $blue;
+}
+.header__block__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    .header__block__social {
+        a {
+            margin: 10px;
+        }
+        img {
+            padding-top: 15px;
+        }
+    }
+}
+.header__block__about__text {
+    display: flex;
+    justify-content: space-between;
+    .header__block__text {
+        max-width: 590px;
+        margin: 0 auto;
+        margin-top: 163px;
+        h1 {
+            font-family: $Permanent-Marker;
+            font-size: 70px;
+            color: $white;
+            line-height: 75px;
+            font-weight: 400;
+        }
+        p {
+            font-family: $Montserrat;
+            font-size: 18px;
+            color: $white;
+            line-height: 27px;
+            font-weight: 400;
+        }
+        button {
+            width: 189px;
+            height: 47px;
+            background: $white;
+            border: 1px solid $black;
+            border-radius: 10px;
+            box-shadow: 0px 4px 0px #202020;
+            font-family: $Montserrat;
+            font-weight: 900;
+            font-size: 16px;
+            color: $black;
+            cursor: pointer;
+            outline: none;
+            img {
+                position: relative;
+                top: 5px;
+                padding-right: 10px;
+            }
+        }
+    }
+    .header__block__mobeli {
+        position: relative;
+        .mobile__block {
+            margin-right: 173px;
+        }
+        .mobile__block__diagram {
+            position: absolute;
+            top: 130px;
+            right: 237px;
+        }
+        .mobile__block__info1 {
+            position: absolute;
+            top: 310px;
+            right: 410px;
+            width: 145px;
+            height: 132px;
+            background: $light-green;
+            text-align: center;
+            transform: rotate(3deg);
+            border: 2.11413px solid #1C1C1D;
+            box-sizing: border-box;
+            box-shadow: 0px 2.11413px 0px #202020;
+            border-radius: 10px;
+            padding-top: 40px;
+            .mobile__block__info__text1 {
+                font-family: $Montserrat;
+                font-weight: 700;
+                color: $black;
+                font-size: 26px;
+                line-height: 26px;
+                margin: 0;
+                padding: 0;
+            }
+            .mobile__block__info__text2 {
+                font-family: $Montserrat;
+                font-weight: 400;
+                color: $black;
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .mobile__block__info2 {
+            position: absolute;
+            top: 317px;
+            right: 256px;
+            width: 145px;
+            height: 132px;
+            background: $blue;
+            text-align: center;
+            transform: rotate(3deg);
+            border: 2.11413px solid #1C1C1D;
+            box-sizing: border-box;
+            box-shadow: 0px 2.11413px 0px #202020;
+            border-radius: 10px;
+            padding-top: 40px;
+            .mobile__block__info__text3 {
+                font-family: $Montserrat;
+                font-weight: 700;
+                color: $white;
+                font-size: 26px;
+                line-height: 26px;
+                margin: 0;
+                padding: 0;
+            }
+            .mobile__block__info__text4 {
+                font-family: $Montserrat;
+                font-weight: 400;
+                color: $white;
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .mobile__block__info3 {
+            position: absolute;
+            top: 460px;
+            right: 418px;
+            width: 145px;
+            height: 132px;
+            background: $blue;
+            text-align: center;
+            transform: rotate(3deg);
+            border: 2.11413px solid #1C1C1D;
+            box-sizing: border-box;
+            box-shadow: 0px 2.11413px 0px #202020;
+            border-radius: 10px;
+            padding-top: 40px;
+            .mobile__block__info__text5 {
+                font-family: $Montserrat;
+                font-weight: 700;
+                color: $white;
+                font-size: 26px;
+                line-height: 26px;
+                margin: 0;
+                padding: 0;
+            }
+            .mobile__block__info__text6 {
+                font-family: $Montserrat;
+                font-weight: 400;
+                color: $white;
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .mobile__block__info4 {
+            position: absolute;
+            top: 467px;
+            right: 262px;
+            width: 145px;
+            height: 132px;
+            background: $light-green;
+            text-align: center;
+            transform: rotate(3deg);
+            border: 2.11413px solid #1C1C1D;
+            box-sizing: border-box;
+            box-shadow: 0px 2.11413px 0px #202020;
+            border-radius: 10px;
+            padding-top: 40px;
+            .mobile__block__info__text7 {
+                font-family: $Montserrat;
+                font-weight: 700;
+                color: $black;
+                font-size: 26px;
+                line-height: 26px;
+                margin: 0;
+                padding: 0;
+            }
+            .mobile__block__info__text8 {
+                font-family: $Montserrat;
+                font-weight: 400;
+                color: $black;
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .mobile__block__btn {
+            position: absolute;
+            top: 640px;
+            right: 263px;
+            width: 315px;
+            height: 54px;
+            background: $white;
+            border: 1.05706px solid #1C1C1D;
+            box-sizing: border-box;
+            box-shadow: 0px 4.22825px 0px #202020;
+            border-radius: 10px;
+            transform: rotate(3deg);
+            text-align: center;
+            .mobile__block__info__text9 {
+                font-family: $Montserrat;
+                font-size: 17px;
+                font-weight: 900;
+                color: $black;
+            }
+        }
+    }
+}
+
 
 
 
