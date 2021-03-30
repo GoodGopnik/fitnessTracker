@@ -77,11 +77,14 @@
         position: relative;
         .mobile__block {
             margin-right: 173px;
+            position: relative;
+            z-index: 5;
         }
         .mobile__block__diagram {
             position: absolute;
             top: 130px;
             right: 237px;
+            z-index: 6;
         }
         .mobile__block__info1 {
             position: absolute;
@@ -97,6 +100,7 @@
             box-shadow: 0px 2.11413px 0px #202020;
             border-radius: 10px;
             padding-top: 40px;
+            z-index: 6;
             .mobile__block__info__text1 {
                 font-family: $Montserrat;
                 font-weight: 700;
@@ -130,6 +134,7 @@
             box-shadow: 0px 2.11413px 0px #202020;
             border-radius: 10px;
             padding-top: 40px;
+            z-index: 6;
             .mobile__block__info__text3 {
                 font-family: $Montserrat;
                 font-weight: 700;
@@ -163,6 +168,7 @@
             box-shadow: 0px 2.11413px 0px #202020;
             border-radius: 10px;
             padding-top: 40px;
+            z-index: 6;
             .mobile__block__info__text5 {
                 font-family: $Montserrat;
                 font-weight: 700;
@@ -196,6 +202,7 @@
             box-shadow: 0px 2.11413px 0px #202020;
             border-radius: 10px;
             padding-top: 40px;
+            z-index: 6;
             .mobile__block__info__text7 {
                 font-family: $Montserrat;
                 font-weight: 700;
@@ -228,12 +235,43 @@
             border-radius: 10px;
             transform: rotate(3deg);
             text-align: center;
+            z-index: 6;
             .mobile__block__info__text9 {
                 font-family: $Montserrat;
                 font-size: 17px;
                 font-weight: 900;
                 color: $black;
             }
+        }
+        .mobile__block__cloud1 {
+            position: absolute;
+            z-index: 1;
+            top: -43px;
+            left: -110px;
+        }
+        .mobile__block__cloud2 {
+            position: absolute;
+            z-index: 1;
+            top: 250px;
+            right: 83px;
+        }
+        .mobile__block__cloud3 {
+            position: absolute;
+            z-index: 6;
+            bottom: 180px;
+            left: -76px;
+        }
+        .mobile__block__cloud4 {
+            position: absolute;
+            z-index: 1;
+            bottom: 4px;
+            left: -193px;
+        }
+        .mobile__block__cloud5 {
+            position: absolute;
+            z-index: 6;
+            bottom: 4px;
+            right: 0;
         }
     }
 }
