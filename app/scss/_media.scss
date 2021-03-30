@@ -1,0 +1,230 @@
+ @media(max-width: 1095px) {
+    .header__block__about__text .header__block__mobeli .mobile__block {
+        margin-right: 0;
+    }
+    .header__block__about__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile__block__cloud5 {
+        display: none;
+    }
+    .header__block__about__text .header__block__text {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__diagram {
+        right: 63px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info2 {
+        right: 86px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info1 {
+        right: 240px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 {
+        right: 94px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info3 {
+        right: 248px;
+    } 
+    .header__block__about__text .header__block__mobeli .mobile__block__btn {
+        right: 96px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__cloud2 {
+        right: -110px;
+    }
+ }
+ @media(max-width: 700px) {
+    .header__block__about__text .header__block__mobeli .mobile__block {
+        max-width: 100%;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__cloud2 {
+        right: -10px;
+    }
+ }
+ @media(max-width: 500px) {
+    .header__block__about__text .header__block__mobeli .mobile__block__cloud2 {
+        right: 10px;
+    }
+ }
+ @media(max-width: 465px) {
+    .header__block__about__text .header__block__mobeli .mobile__block__diagram {
+        right: 49px;
+        max-width: 100%;
+        width: 285px;
+        height: 177px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info2 {
+        right: 73px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info1 {
+        right: 223px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 {        
+        top: 437px;
+        right: 81px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info3 {
+        top: 430px;
+        right: 228px;
+        width: 100px;
+        height: 100px
+    } 
+    .header__block__about__text .header__block__mobeli .mobile__block__btn {
+        top: 565px;
+        right: 112px;
+        width: 200px;
+        height: 54px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 .mobile__block__info__text8 {
+        font-size: 12px;
+    }
+ }
+ @media(max-width: 400px) {
+    .header__block__about__text .header__block__mobeli .mobile__block__diagram {
+        right: 49px;
+        max-width: 100%;
+        width: 200px;
+        height: 130px;
+        top: 90px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info2 {
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        top: 230px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info1 {
+        top: 225px;
+        right: 160px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 {        
+        top: 340px;
+        right: 56px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info3 {
+        top: 334px;
+        right: 165px;
+        width: 100px;
+        height: 100px
+    } 
+    .header__block__about__text .header__block__mobeli .mobile__block__btn {
+        top: 458px;
+        right: 66px;
+        width: 200px;
+        height: 30px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__btn .mobile__block__info__text9 {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+    }
+ }
+ @media(max-width: 376px) {
+    .header__block__about__text .header__block__text button {
+        margin: 10px 0;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__diagram {
+        right: 72px;
+        max-width: 100%;
+        width: 200px;
+        height: 100px;
+        top: 116px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info2 {
+        right: 74px;
+        width: 100px;
+        height: 100px;
+        top: 233px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info1 {
+        top: 227px;
+        right: 183px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 {        
+        top: 342px;
+        right: 80px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info3 {
+        top: 335px;
+        right: 189px;
+        width: 100px;
+        height: 100px
+    } 
+    .header__block__about__text .header__block__mobeli .mobile__block__btn {
+        top: 485px;
+        right: 89px;
+        width: 200px;
+        height: 30px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__btn .mobile__block__info__text9 {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+    }
+ }
+ @media(max-width: 370px) {
+    .header__block__about__text .header__block__mobeli .mobile__block__diagram {
+        right: 49px;
+        max-width: 100%;
+        width: 200px;
+        height: 130px;
+        top: 90px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info2 {
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        top: 230px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info1 {
+        top: 225px;
+        right: 160px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info4 {        
+        top: 340px;
+        right: 56px;
+        width: 100px;
+        height: 100px
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__info3 {
+        top: 334px;
+        right: 165px;
+        width: 100px;
+        height: 100px
+    } 
+    .header__block__about__text .header__block__mobeli .mobile__block__btn {
+        top: 458px;
+        right: 66px;
+        width: 200px;
+        height: 30px;
+    }
+    .header__block__about__text .header__block__mobeli .mobile__block__btn .mobile__block__info__text9 {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        padding-top: 5px;
+    }
+ }
+

@@ -18,6 +18,7 @@
 }
 .header__block {
     background: $blue;
+    padding: 0 5px;
 }
 .header__block__nav {
     display: flex;
@@ -79,12 +80,14 @@
             margin-right: 173px;
             position: relative;
             z-index: 5;
+            // max-width: 100%;
         }
         .mobile__block__diagram {
             position: absolute;
             top: 130px;
             right: 237px;
             z-index: 6;
+            max-width: 100%;
         }
         .mobile__block__info1 {
             position: absolute;
