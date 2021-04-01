@@ -36,6 +36,16 @@
     .header__block__about__text .header__block__mobeli .mobile__block__cloud2 {
         right: -110px;
     }
+    .about__watch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about__watch__text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
  }
  @media(max-width: 700px) {
     .header__block__about__text .header__block__mobeli .mobile__block {
@@ -48,6 +58,9 @@
  @media(max-width: 500px) {
     .header__block__about__text .header__block__mobeli .mobile__block__cloud2 {
         right: 10px;
+    }
+    .about__watch__text__input input {
+        margin-bottom: 10px;
     }
  }
  @media(max-width: 465px) {

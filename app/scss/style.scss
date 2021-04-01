@@ -482,8 +482,73 @@
         }
     }
 }
-
-
+////////////////////////////// watch
+.about__watch {
+    padding: 0 10px;
+    background: $light-blue;
+    display: flex;
+    justify-content: space-between;
+}
+.about__watch__text {
+    margin: 0 auto;
+    margin-top: 164px;
+    margin-bottom: 164px;
+    h2 {
+        padding: 0;
+        margin: 0;
+        font-family: $Permanent-Marker;
+        font-weight: 400;
+        font-size: 45px;
+        color: $white;
+        max-width: 483px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    p {
+        font-family: $Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        color: $white;
+        margin: 0;
+        padding: 0;
+        line-height: 27px;
+        margin-bottom: 50px;
+        max-width: 483px;
+        width: 100%;
+    }
+    .about__watch__text__input {
+        input {
+            max-width: 277px;
+            width: 100%;
+            height: 50px;
+            box-shadow: 0px 2px 0px #202020;
+            border-radius: 10px;
+            border: 1px solid #1C1C1D;
+            padding-left: 20px;  
+        }
+        button {
+            max-width: 189px;
+            width: 100%;
+            height: 48px;
+            color: $white;
+            font-family: $Montserrat;
+            font-size: 16px;
+            font-weight: 900;
+            background: $dark-yellow;
+            box-shadow: 0px 4px 0px #202020;
+            border-radius: 10px;
+            border: 1px solid #1C1C1D;
+            margin-left: 10px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+.about__watch__img {
+    img {
+        width: 100%;
+    }
+}
 @import "media";
 
 
