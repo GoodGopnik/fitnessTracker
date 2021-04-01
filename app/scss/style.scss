@@ -749,7 +749,9 @@
 }
 .about__tariff__blocks {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     p {
         text-align: left;
         margin: 0;
@@ -796,6 +798,7 @@
         border: 2px solid #1C1C1D;
         padding-top: 30px;
         padding-left: 30px;
+        margin: 20px 10px;
     }
     .about__tariff__blocks__block2 {
         max-width: 278px;
@@ -818,6 +821,7 @@
         border: 2px solid #1C1C1D;
         padding-top: 30px;
         padding-left: 30px;
+        margin: 20px 10px;
     }
     .about__tariff__blocks__block4 {
         max-width: 278px;
