@@ -835,6 +835,113 @@
         padding-left: 30px;
     }
 }
+////////////////////////////// sending form
+.sending__form {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sending_form__blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .sending__form__text {
+        padding: 0 5px;
+        h2 {
+            margin: 0;
+            padding: 0;
+            margin-top: 196px;
+            font-family: $Permanent-Marker;
+            font-weight: 400;
+            font-size: 45px;
+            max-width: 400px;
+            width: 100%;
+            margin-bottom: 25px;
+            color: $black;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            color: $gray;
+            font-family: $Montserrat;
+            font-weight: 400;
+            font-size: 18px;
+            max-width: 390px;
+            width: 100%;
+            line-height: 27px;
+            margin-bottom: 66px;
+        }
+        .sending__form__bt {
+            button {
+                max-width: 189px;
+                width: 100%;
+                height: 46px;
+                background: $orange;
+                box-shadow: 0px 4px 0px #202020;
+                border-radius: 10px;
+                border: 1px solid #1C1C1D;
+                font-family: $Montserrat;
+                font-weight: 900;
+                color: $white;
+                font-size: 16px;
+                margin-top: 20px;
+                img {
+                    padding-right: 10px;
+                    position: relative;
+                    top: 5px;
+                }
+            }
+        }
+    }
+    .sending__form__input {
+        display: flex;
+        flex-direction: column;
+        max-width: 483px;
+        width: 100%;
+        height: 450px;
+        box-shadow: 0px 8px 0px #202020;
+        border-radius: 10px;
+        border: 2px solid #1C1C1D;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 150px;
+        h3 {
+            margin: 0;
+            padding: 0;
+            font-family: $Montserrat;
+            font-weight: 700;
+            font-size: 24px;
+            color: $black;
+            margin-top: 40px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        input {
+            padding-left: 20px;
+            margin-bottom: 25px;
+            height: 50px;
+            box-shadow: 0px 2px 0px #202020;
+            border-radius: 10px;
+            border: 1px solid #1C1C1D;
+            outline: none;
+        }
+        button {
+            background: $orange;
+            font-family: $Montserrat;
+            font-weight: 900;
+            font-size: 16px;     
+            color: $white;
+            height: 50px;   
+            box-shadow: 0px 4px 0px #202020;
+            border-radius: 10px;
+            border: 1px solid #1C1C1D;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}
+
+
+
 
 
 @import "media";
