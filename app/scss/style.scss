@@ -860,6 +860,11 @@
             color: $black;
             font-weight: 700;
         }
+        button:hover {
+            background: $blue;
+            color: $white;
+            transition:0.5s;
+        }
     }
 }
 .about__tariff__blocks {
@@ -903,6 +908,11 @@
         outline: none;
         margin-top: 40px;
     }
+    button:hover {
+        background: $blue;
+        color: $white;
+        transition:0.5s;
+    }
     .about__tariff__blocks__block1 {
         max-width: 278px;
         width: 100%;
@@ -915,6 +925,9 @@
         padding-left: 30px;
         margin: 20px 10px;
     }
+    .about__tariff__blocks__block1:hover {
+        transform: rotate(2deg);
+    }
     .about__tariff__blocks__block2 {
         max-width: 278px;
         width: 100%;
@@ -925,6 +938,9 @@
         border: 2px solid #1C1C1D;
         padding-top: 30px;
         padding-left: 30px;
+    }
+    .about__tariff__blocks__block2:hover {
+        transform: rotate(2deg);
     }
     .about__tariff__blocks__block3 {
         max-width: 278px;
@@ -938,6 +954,9 @@
         padding-left: 30px;
         margin: 20px 10px;
     }
+    .about__tariff__blocks__block3:hover {
+        transform: rotate(2deg);
+    }
     .about__tariff__blocks__block4 {
         max-width: 278px;
         width: 100%;
@@ -948,6 +967,9 @@
         border: 2px solid #1C1C1D;
         padding-top: 30px;
         padding-left: 30px;
+    }
+    .about__tariff__blocks__block4:hover {
+        transform: rotate(2deg);
     }
 }
 ////////////////////////////// sending form
@@ -999,11 +1021,19 @@
                 color: $white;
                 font-size: 16px;
                 margin-top: 20px;
+                a {
+                    text-decoration: none;
+                    color: $white;
+                }
                 img {
                     padding-right: 10px;
                     position: relative;
                     top: 5px;
                 }
+            }
+            button:hover {
+                background: $blue;
+                transition:0.5s;
             }
         }
     }
@@ -1019,6 +1049,7 @@
         padding-left: 40px;
         padding-right: 40px;
         margin-top: 150px;
+        position: relative;
         h3 {
             margin: 0;
             padding: 0;
@@ -1051,6 +1082,11 @@
             border: 1px solid #1C1C1D;
             cursor: pointer;
             outline: none;
+        }
+        button:hover {
+            background: $dark-yellow;
+            color: $black;
+            transition:0.5s;
         }
     }
 }

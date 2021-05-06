@@ -9,7 +9,7 @@ $('.center').slick({
     variableWidth: true,
   });
 
-const modal = () => {
+const modalWatch = () => {
   let btnWatch = document.querySelector('.btn__watch');
   let modalPopup = document.querySelector ('.modal__popup');
   
@@ -22,5 +22,14 @@ const modal = () => {
     }
   })
 }
-modal()
+const modalMessage = () => {
+  let btnMessage = document.querySelector ('.btn__message');
+  let modalPopup = document.querySelector ('.modal__popup');
+
+  btnMessage.addEventListener('click', () => {
+    modalPopup.style.display = 'block'
+  })
+}
+modalMessage()
+modalWatch()
 
