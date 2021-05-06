@@ -64,13 +64,22 @@
             font-family: $Montserrat;
             font-weight: 900;
             font-size: 16px;
-            color: $black;
             cursor: pointer;
             outline: none;
+            a {
+                text-decoration: none;
+                color: $black;
+            }
             img {
                 position: relative;
                 top: 5px;
                 padding-right: 10px;
+            }
+        }
+        button:hover {
+            a {
+                color: $blue;
+                transition:0.3s;
             }
         }
     }
@@ -122,6 +131,16 @@
                 padding: 0;
             }
         }
+        .mobile__block__info1:hover {
+            .mobile__block__info__text1 {
+                color: $white;
+                transition:0.5s;
+            }
+            .mobile__block__info__text2 {
+                color: $white;
+                transition:0.5s;
+            }
+        }
         .mobile__block__info2 {
             position: absolute;
             top: 317px;
@@ -154,6 +173,16 @@
                 line-height: 18px;
                 margin: 0;
                 padding: 0;
+            }
+        }
+        .mobile__block__info2:hover {
+            .mobile__block__info__text3 {
+                color: $black;
+                transition:0.5s;
+            }
+            .mobile__block__info__text4 {
+                color: $black;
+                transition:0.5s;
             }
         }
         .mobile__block__info3 {
@@ -190,6 +219,16 @@
                 padding: 0;
             }
         }
+        .mobile__block__info3:hover {
+            .mobile__block__info__text5 {
+                color: $black;
+                transition:0.5s;
+            }
+            .mobile__block__info__text6 {
+                color: $black;
+                transition:0.5s;
+            }
+        }
         .mobile__block__info4 {
             position: absolute;
             top: 467px;
@@ -224,6 +263,16 @@
                 padding: 0;
             }
         }
+        .mobile__block__info4:hover {
+            .mobile__block__info__text7 {
+                color: $white;
+                transition:0.5s;
+            }
+            .mobile__block__info__text8 {
+                color: $white;
+                transition:0.5s;
+            }
+        }
         .mobile__block__btn {
             position: absolute;
             top: 640px;
@@ -243,6 +292,14 @@
                 font-size: 17px;
                 font-weight: 900;
                 color: $black;
+            }
+        }
+        .mobile__block__btn:hover {
+            background: $blue;
+            transition:0.5s;
+            .mobile__block__info__text9 {
+                color: $white;
+                transition:0.5s;
             }
         }
         .mobile__block__cloud1 {
@@ -456,6 +513,36 @@
         margin-top: 16px;
     }
 }
+.about__block__slider__block1:hover{
+    h2 {
+        color: $black;
+        transition: 0.5s;
+    }
+    p {
+        color: $black;
+        transition: 0.5s;
+    }
+}
+.about__block__slider__block2:hover{
+    h2 {
+        color: $black;
+        transition: 0.5s;
+    }
+    p {
+        color: $black;
+        transition: 0.5s;
+    }
+}
+.about__block__slider__block3:hover{
+    h2 {
+        color: $black;
+        transition: 0.5s;
+    }
+    p {
+        color: $black;
+        transition: 0.5s;
+    }
+}
 .slick-dots {
     position: absolute;
     list-style: none;
@@ -488,6 +575,7 @@
     background: $light-blue;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .about__watch__text {
     margin: 0 auto;
@@ -525,6 +613,7 @@
             border-radius: 10px;
             border: 1px solid #1C1C1D;
             padding-left: 20px;  
+            outline: none;
         }
         button {
             max-width: 189px;
@@ -541,6 +630,14 @@
             margin-left: 10px;
             outline: none;
             cursor: pointer;
+        }
+        button:hover {
+            color: $black;
+            background: $white;
+            transition:0.5s;
+        }
+        button:active {
+            padding-top: 3px;
         }
     }
 }
@@ -705,6 +802,24 @@
                 margin-top: 110px;
             }
         }
+    }
+}
+.about__stories__blocks__block1:hover {
+    .about__stories__blocks__img {
+        transform: rotate(360deg);
+        transition:1.5s;
+    }
+}
+.about__stories__blocks__block2:hover {
+    .about__stories__blocks__img {
+        transform: rotate(360deg);
+        transition:1.5s;
+    }
+}
+.about__stories__blocks__block3:hover {
+    .about__stories__blocks__img {
+        transform: rotate(360deg);
+        transition:1.5s;
     }
 }
 ////////////////////////////// tariff
@@ -953,6 +1068,35 @@
             color: $white;
         }
     }
+}
+////////////////////////////// pop up "watch"
+.watch__popup {
+    width: 300px;
+    height: 150px;
+    background: $dark-yellow;
+    font-size: 36px;
+    color: $black;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+    position: fixed;
+    border-radius: 10px;
+    left: 40%;
+    top: 35%;
+    font-family: $Permanent-Marker;
+}
+.modal__popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 100;
 }
 
 
